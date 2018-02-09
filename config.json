@@ -1,0 +1,8 @@
+{
+  "hashtag": "#twitter",
+  "port": 80,
+  "timeSync": 5000,
+  "timeCheck": 10000,
+  "bannedWords": [],
+  "bannedUsers": []
+}
