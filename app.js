@@ -64,7 +64,7 @@ function checkTweet() {
                     "    </div>"
 
                 if(shouldAddTweet(tweet.id) && shouldShowTweet(tweet.id) && checkBanWord(tweet.text) && checkBanUser(tweet.screenName))
-                    toShow.push({key: tweet.id, html: html});
+                    toShow.push({key: tweet.id, html: html, date: tweet.time});
             });
         });
     })
@@ -107,6 +107,11 @@ function shouldShowTweet(tweetId){
 }
 
 function showTweet() {
+    toShow.sort(function(a, b) {
+        a = new Date(a.date);
+        b = new Date(b.date);
+        return a>b ? -1 : a<b ? 1 : 0;
+    });
     if (toShow.length > 0) {
         let nextTweet = toShow.pop();
         if (shouldShowTweet(nextTweet.key)) {

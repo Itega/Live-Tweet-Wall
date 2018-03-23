@@ -1,6 +1,6 @@
 {
-  "hashtag": "#twitter",
-  "port": 80,
+  "hashtag": "#talks10",
+  "port": 2000,
   "timeSync": 5000,
   "timeCheck": 10000,
   "bannedWords": [],

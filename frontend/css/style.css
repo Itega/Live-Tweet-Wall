@@ -1,4 +1,49 @@
-.hashtag{color:#1DA1F2}
-.link{color:#1DA1F2}
-.mention{color:#1DA1F2}
-.images img,.tweet{margin:10px}#tweets,.images,body,html{overflow:hidden}.images{display:flex;justify-content:center;max-height:25vh}.images img{width:auto;max-height:25vh;height:100%}.card-header h3{margin:0}.card-header>div{width:100%}
+*{color:white}
+.hashtag {
+    color: #1DA1F2
+}
+
+.link {
+    color: #1DA1F2
+}
+
+.mention {
+    color: #1DA1F2
+}
+
+.images img, .tweet {
+    margin: 10px
+}
+
+#tweets, .images, body, html {
+    overflow: hidden
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    max-height: 25vh
+}
+
+.images img {
+    width: auto;
+    max-height: 25vh;
+    height: 100%
+}
+
+.card-header h3 {
+    margin: 0
+}
+
+.card-header > div {
+    width: 100%
+}
+.card-header{
+    border-bottom: 1px solid rgba(255,255,255,.40);
+}
+
+html, body, div{
+    background-color: black!important;
+}
+
+.box-shadow{border: 1px solid rgba(255,255,255,.40)!important;}
