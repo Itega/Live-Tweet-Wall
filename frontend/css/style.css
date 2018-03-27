@@ -1,4 +1,6 @@
-*{color:white}
+*{
+    color:white;
+}
 .hashtag {
     color: #1DA1F2
 }
@@ -41,7 +43,9 @@
 .card-header{
     border-bottom: 1px solid rgba(255,255,255,.40);
 }
-
+.card-text{
+    font-size: 2rem;
+}
 html, body, div{
     background-color: black!important;
 }
